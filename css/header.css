@@ -17,7 +17,11 @@ header {
   margin-top: 16px;
 }
 
-nav {
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+}
+
+.header-nav {
   display: none;
 }
 

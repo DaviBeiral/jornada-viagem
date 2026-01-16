@@ -19,10 +19,6 @@
   border-radius: 16px;
 }
 .offers-cards .card header {
-  background-color: transparent;
-  display: block;
-  position: static;
-  padding: 0;
   margin-bottom: 24px;
 }
 
@@ -71,7 +67,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .card {
+  .offers-cards .card {
     width: 420px;
     height: 308px;
   }
@@ -84,7 +80,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .card {
+  .offers-cards .card {
     width: 588px;
   }
 }

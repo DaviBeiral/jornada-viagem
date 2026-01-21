@@ -1,44 +1,60 @@
 .paymants .image-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
   gap: 24px;
   height: 460px;
   margin-top: 24px;
+  width: 100%;
 }
 
-.paymants .image-content .image.bag {
+.paymants .content-container .image-content .image.bag {
   background: url(../img/Montagem\ japão\ 1.png) no-repeat;
   background-size: cover;
 }
 
-.paymants .image-content .image.passport {
+.paymants .content-container .image-content .image.passport {
   background: url(../img/Montagem\ japão\ 2.png) no-repeat;
   background-size: cover;
 }
 
-.paymants .image-content .image.people {
+.paymants .content-container .image-content .image.people {
   background: url(../img/Montagem\ japão\ 3.png) no-repeat;
   background-size: cover;
 }
 
-.paymants .image-content .image.coslpan-2 {
+.paymants .content-container .image-content .image.coslpan-2 {
   grid-column: span 2;
 }
 
 @media screen and (min-width: 768px) {
-.paymants .image-content .image.bag {
-  background: url(../img/Montagem\ japão\ 1-tablet.png) no-repeat;
-  background-size: cover;
+  .paymants .content-container .image-content .image.bag {
+    background: url(../img/Montagem\ japão\ 1-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .paymants .content-container .image-content .image.passport {
+    background: url(../img/Montagem\ japão\ 2-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .paymants .content-container .image-content .image.people {
+    background: url(../img/Montagem\ japão\ 3-tablet.png) no-repeat;
+    background-size: cover;
+  }
 }
 
-.paymants .image-content .image.passport {
-  background: url(../img/Montagem\ japão\ 2-tablet.png) no-repeat;
-  background-size: cover;
-}
+@media screen and (min-width: 1440px) {
+  .paymants .content-container {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.paymants .image-content .image.people {
-  background: url(../img/Montagem\ japão\ 3-tablet.png) no-repeat;
-  background-size: cover;
-}
+  .paymants .content-container .text-content {
+    width: 360px;
+  }
+
+  .paymants .content-container .image-content {
+    width: 790px;
+    margin: 0;
+  }
 }

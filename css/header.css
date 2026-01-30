@@ -39,6 +39,10 @@ input[type="checkbox"]:checked ~ nav {
   display: none;
 }
 
+.navigation-menu .header-nav .active {
+  text-decoration: underline;
+}
+
 .img-menu {
   width: 32px;
   height: 32px;

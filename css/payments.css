@@ -26,6 +26,16 @@
   grid-column: span 2;
 }
 
+/*pacote de viagem*/
+
+.travel-packet.content-title {
+  font-size: 40px;
+}
+
+.travel-packet.paymants .content-container p {
+  margin-bottom: 24px;
+}
+
 @media screen and (min-width: 768px) {
   .paymants .content-container .image-content .image.bag {
     background: url(../img/Montagem\ japão\ 1-tablet.png) no-repeat;
@@ -40,6 +50,12 @@
   .paymants .content-container .image-content .image.people {
     background: url(../img/Montagem\ japão\ 3-tablet.png) no-repeat;
     background-size: cover;
+  }
+
+  /*pacote de viagem*/
+
+  .travel-packet.paymants .content-container a {
+    display: none;
   }
 }
 
